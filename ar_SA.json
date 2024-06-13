@@ -1,0 +1,497 @@
+{
+  "DASHBOARD": {
+    "LABEL": "القائمة الرئيسية",
+    "RECENT_ACTIVITES": {
+      "LABEL": "الأنشطة الأخيرة",
+      "INCIDENT": "الحوادث الأخيرة",
+      "REPORT": "التقارير الأخيرة",
+      "BOLO": "الـتعميمات الأخيرة",
+      "WARRANT": "المذكرات القضائية الأخيرة",
+      "EVIDENCE": "الأدلة الأخيرة",
+      "WEAPON": "الأسلحة المسجلة الأخيرة"
+    },
+    "ANNOUNCEMENTS": {
+      "LABEL": "الإعلانات"
+    }
+  },
+
+  "CITIZENS": {
+    "LABEL": "المواطنين",
+    "EDIT": "{identifier} تحرير المواطن",
+    "GRANT": "منح الترخيص",
+    "REVOKE": "إلغاء الترخيص"
+  },
+
+  "INCIDENTS": {
+    "LABEL": "الحوادث",
+    "EDIT": "{id} تعديل الحادثة",
+    "CRIMINAL": {
+      "LABEL": "الحثالة الجنائية",
+      "CRIMINALS": {
+        "LABEL": "(#{identifier}) {fullname}",
+        "EDIT": "تعديل ",
+        "WARRANT": "أمر بالقبض",
+        "HOLD": "الانتظار حتى المحاكمة",
+        "TRIAL": "تم للمحاكمة",
+        "REASON": "سبب التفويض",
+        "DATE": "حدد التاريخ والوقت",
+        "REDUCTION": {
+          "LABEL": "تخفيض",
+          "PLACEHOLDER": "حدد التخفيض",
+          "DATA": "{percentage}% / ${fine} fine / {jail} day(s) / {points} point(s)"
+        },
+        "PLEADED": "معترف بالذنب",
+        "PROCESSED": "تمت معالجتها",
+        "CHARGES": {
+          "SELECTED": "تم اختيار ",
+          "ALL_CHARGES": "كل الاتهامات",
+          "NONE_FOUND": "لا توجد"
+        }
+      }
+    }
+  },
+
+  "REPORTS": {
+    "LABEL": "التقارير",
+    "EDIT": "{id} تحرير التقرير"
+  },
+
+  "BOLOS_WARRANTS": {
+    "LABEL": "التعميمات & المذكرات",
+    "BOLOS": {
+      "LABEL": "التعميمات"
+    },
+    "WARRANTS": {
+      "LABEL": "المذكرات",
+      "CLOTHES": {
+        "HAT": "{type} | {color} : قبعة",
+        "MASK": "{type} | {color} : قناع",
+        "JACKET": "{type} | {color} : السترة",
+        "GLOVES": "{type} | {color} : قفازات",
+        "PANTS": "{type} | {color} : بنطال",
+        "SHOES": "{type} | {color} : أحذية"
+      }
+    }
+  },
+
+  "VEHICLES": {
+    "LABEL": "مركبات",
+    "EDIT": "{plate} تحرير المركبة"
+  },
+
+  "EVIDENCE": {
+    "LABEL": "دليل",
+    "EDIT": "{id} تحرير الأدلة",
+    "CATEGORY": "{category} فئة"
+  },
+
+  "CAMERAS": {
+    "LABEL": "الكاميرات",
+    "AV1": "AV1",
+    "NO_INPUT": ".لا توجد إشارة",
+    "ONLINE": "متصل"
+  },
+
+  "WEAPON_REGISTRY": {
+    "LABEL": "سجل الأسلحة",
+    "EDIT": "{id} تحرير السلاح"
+  },
+
+  "LEGISLATIONS": {
+    "LABEL": "التشريعات",
+    "EDIT": "{id} تحرير التشريعات"
+  },
+
+  "STAFF": {
+    "LABEL": "الاداره",
+
+    "STAFF": {
+      "LABEL": "الاداره"
+    },
+
+    "SOP": {
+      "LABEL": "SOP",
+      "EDIT": "Edit SOP {id}"
+    },
+
+    "ROSTER": {
+      "LABEL": "جدول الخدمة"
+    },
+
+    "ACADEMY": {
+      "LABEL": "ورقة الأكاديمية",
+      "ADD": "إضافة ضابط جديد"
+    },
+
+    "DATABASE": {
+      "LABEL": "قاعدة البيانات التأديبية",
+      "ADD": "إضافة ضابط جديد"
+    },
+
+    "CODES_COMMANDS": {
+      "LABEL": "10 رموز وأوامر",
+      "CODES": {
+        "LABEL": "10 رموز",
+        "CODE": "رمز",
+        "DESCRIPTION": "وصف"
+      },
+      "COMMANDS": {
+        "LABEL": "أوامر",
+        "COMMAND": "أمر",
+        "ACTION": "فعل"
+      }
+    }
+  },
+
+  "CHARGE": {
+    "LABEL": "رسوم"
+  },
+
+  "CONFIGURATIONS": {
+    "LABEL": "إعدادات",
+
+    "STAFF": {
+      "LABEL": "الاداره",
+      "EDIT": "{identifier} تحرير الموظفين",
+      "DATA": "بيانات",
+      "NO_ACTIVITY": "لا يوجد نشاط بعد",
+      "CLOCKED_IN": "سجل دخول فى",
+      "CLOCKED_OUT": "سجل خروج فى",
+      "SUSPEND": "تعليق",
+      "FIRE": "نار"
+    },
+
+    "ROLES": {
+      "LABEL": "الرتب",
+      "NEW": "رتبه جديده",
+      "DESCRIPTION": "حدد الأدوار المحددة التي يجب أن يحصل الضابط على إذن لها",
+      "LABELS": {
+        "FULL_ACCESS": "تحكم كامل",
+        "CONFIGURATIONS": {
+          "VIEW": "روؤية صفحة الاعدادات",
+          "STAFF": "التحكم فى بيانات الموظفين",
+          "STAFF_ROLES": "تحرير رتب الموظفين",
+          "ROLES": "التحكم فى بيانات الرتب",
+          "": "التحكم  البيانات"
+        },
+        "DASHBOARD": {
+          "VIEW": "روؤية القائمة الرئيسيه",
+          "ANNOUNCEMENTS": {
+            "CREATE": "إنشاء الإعلانات",
+            "EDIT": "تحرير الإعلانات",
+            "DELETE": "حذف الإعلانات"
+          }
+        },
+        "CITIZENS": {
+          "VIEW": "روؤية صفحة المواطنين",
+          "SEARCH": "البحث في بيانات المواطنين",
+          "EDIT": "تعديل بيانات المواطنين"
+        },
+        "INCIDENTS": {
+          "VIEW": "روؤية صفحة الحوادث",
+          "SEARCH": "البحث عن بيانات الحوادث",
+          "CREATE": "إنشاء بيانات الحوادث",
+          "EDIT": "تحرير بيانات الحوادث",
+          "DELETE": "حذف بيانات الحوادث"
+        },
+        "REPORTS": {
+          "VIEW": "روؤية صفحة التقارير",
+          "SEARCH": "بيانات تقارير البحث",
+          "CREATE": "إنشاء بيانات التقارير",
+          "EDIT": "تحرير بيانات التقارير",
+          "DELETE": "حذف بيانات التقارير"
+        },
+        "BOLOS_WARRANTS": {
+          "VIEW": "روؤية صفحة التعميمات & المذكرات",
+          "CREATE": "إنشاء بيانات التعميمات و المذكرات",
+          "EDIT": "تحرير بيانات التعميمات والمذكرات",
+          "DELETE": "حذف بيانات التعميمات والمذكرات"
+        },
+        "VEHICLES": {
+          "VIEW": "روؤية صفحة المركبات",
+          "SEARCH": "بحث بيانات المركبات",
+          "EDIT": "تعديل بيانات المركبات"
+        },
+        "EVIDENCE": {
+          "VIEW": "روؤية صفحة الأدلة",
+          "SEARCH": "بحث بيانات الأدلة",
+          "CREATE": "إنشاء بيانات الأدلة",
+          "EDIT": "تحرير بيانات الأدلة",
+          "DELETE": "حذف بيانات الأدلة"
+        },
+        "CAMERAS": {
+          "VIEW": "روؤية صفحة الكاميرات"
+        },
+        "WEAPON_REGISTRY": {
+          "VIEW": "روؤية صفحة تسجيل الأسلحة",
+          "SEARCH": "البحث في بيانات تسجيل الأسلحة",
+          "CREATE": "إنشاء بيانات تسجيل الأسلحة",
+          "EDIT": "تحرير بيانات تسجيل الأسلحة",
+          "DELETE": "حذف بيانات تسجيل الأسلحة"
+        },
+        "LEGISLATIONS": {
+          "VIEW": "روؤية صفحة التشريعات",
+          "SEARCH": "البحث في بيانات التشريعات",
+          "CREATE": "إنشاء بيانات التشريعات",
+          "EDIT": "تحرير بيانات التشريعات",
+          "DELETE": "حذف بيانات التشريعات"
+        },
+        "STAFF": {
+          "VIEW": "روؤية قائمة الموظفين",
+          "VIEW_STAFF": "روؤية صافحة الموظفين",
+          "SOP": {
+            "VIEW": "Access SOP Page",
+            "SEARCH": "Search SOP Data",
+            "CREATE": "Create SOP Data",
+            "EDIT": "Edit SOP Data",
+            "DELETE": "Delete SOP Data"
+          },
+          "ROSTER": {
+            "VIEW": "روؤية جدول الخدمة",
+            "EDIT": "تعديل بيانات جدول الخدمة"
+          },
+          "ACADEMY": {
+            "VIEW": "روؤية صفحة سجل الأكاديمية",
+            "ADD": "إضافة ضباط إلى سجل الأكاديمية",
+            "EDIT": "تعديل بيانات سجل الأكاديمية",
+            "DELETE": "حذف بيانات سجل الأكاديمية"
+          },
+          "DATABASE": {
+            "VIEW": "روؤية صفحة قاعدة البيانات التأديبية",
+            "ADD": "إضافة ضباط إلى قاعدة البيانات التأديبية",
+            "EDIT": "تحرير بيانات قاعدة البيانات التأديبية",
+            "DELETE": "حذف بيانات قاعدة البيانات التأديبية"
+          },
+          "CODES_COMMANDS": {
+            "VIEW": "الوصول إلى صفحة 10 رموز وأوامر"
+          }
+        },
+        "CHARGES": {
+          "VIEW": "روؤية صفحة الرسوم"
+        }
+      }
+    },
+
+    "CHARGES": {
+      "LABEL": "الرسوم",
+      "CHARGES": {
+        "LABEL": "الرسوم"
+      },
+      "CATEGORIES": {
+        "LABEL": "فئات"
+      }
+    }
+  },
+
+  "DATE": {
+    "YEAR": "سنة",
+    "MONTH": "شهر",
+    "DAY": "يوم",
+    "HOUR": "ساعة",
+    "MINUTE": "دقيقة",
+    "SECOND": "ثانية",
+    "S": "s",
+    "AGO": "منذ",
+    "LEFT": "متبقى",
+    "JUST_NOW": "الآن",
+    "EXPIRED": "منتهي",
+    "AND": "و"
+  },
+
+  "AVATAR": "الصورة الرمزية",
+  "OFFICER": "ضابط",
+  "STATUS": "حالة",
+  "ACTIVE": "نشيط",
+  "INACTIVE": "غير نشط",
+  "ACTIONS": "أجراءات",
+  "SET_WAYPOINT": "تعيين نقطة الطريق",
+  "UNKNOWN_CATEGORY": "فئة غير معروفة",
+
+  "STATEID": "(#{identifier}) :معرف الدولة",
+  "FULLNAME": "{fullname} :الاسم الكامل",
+  "BADGENUMBER": "#{badgenumber} :شارة",
+  "CREATED_BY": "{user} :انشأ من قبل",
+  "TAG": "(#{identifier}) {fullname}",
+  "POSTED_BY": "{user} :منشور من طرف",
+  "OWNED_BY": "(#{identifier}) {fullname} :مملوكة لـ",
+  "LAST_SEEN": "{date} : اخر ظهور",
+  "AUTHOR": "{user} :مؤلف",
+  "OWNER": "{owner} :مالك",
+  "PLATE": "{plate} :لوحه",
+  "COLOR": "{color} :اللون",
+  "REASON": "{reason} :السبب",
+  "EXPIRES": "{date} :تنتهي",
+  "DESCRIPTION": "{description}",
+  "FINE": "${fine} :غرامة",
+  "JAIL": "يوم {jail} :وقت السجن",
+  "POINTS": "{points} :نقاط",
+  "CATEGORY": "{category} :فئة",
+
+  "VIEW": "عرض",
+  "EDIT": "تعديل",
+  "SEARCH": "بحث",
+  "CREATE": "إنشاء",
+  "UNLINK": "إلغاء الربط",
+  "SAVE": "حفظ",
+  "UPDATE": "تحديث",
+  "DELETE": "حذف",
+  "CLEAR": "مسح",
+  "CLOSE": "إغلاق",
+  "JOIN": "الانضمام",
+  "LEAVE": "المغادرة",
+  "REMOVE": "إزالة",
+  "ADD": "إضافة",
+  "CANCEL": "إلغاء",
+  "CONFIRM": "تأكيد",
+  "RESUME": "استئناف",
+  
+  "POPUP": {
+    "CANCEL": "إلغاء",
+    "CONFIRM": "تأكيد",
+    "IMAGE": "هل أنت متأكد أنك تريد إزالة هذه الصورة من المعرض؟",
+    "SAVE": "؟{label} هل ترغب في حفظ",
+    "DELETE": "؟{label} هل ترغب في حذف",
+    "ACTIVITY": "هل أنت متأكد أنك تريد مسح بيانات نشاط هؤلاء الضباط؟"
+  },
+
+  "PLACEHOLDER": {
+    "STATEID": "رقم الدولة",
+    "FULLNAME": "الاسم الكامل",
+    "ALIAS": "اللقب",
+    "DEPARTMENT": "القسم",
+    "RANK": "الرتبة",
+    "CALLSIGN": "Callsign",
+    "BADGENUMBER": "رقم الشارة",
+    "PHOTO": "الصورة",
+    "TITLE": "اللقب",
+    "NOTES": "ملاحظات",
+    "LOCATION": "الموقع",
+    "AUTHOR": "المؤلف",
+    "CATEGORY": "الفئة",
+    "UNKNOWN": "غير معروف",
+    "REASON": "السبب",
+    "PLATE": "اللوحة",
+    "OWNER": "المالك",
+    "COLOR": "اللون",
+    "DATE": "التاريخ والوقت",
+    "SEARCH": "بحث",
+    "SELECT": "اختيار",
+    "FILTER": "تصفية",
+    "CLOTHING": "نوع الملابس",
+    "LINK": "ربط",
+    "LABEL": "تسمية",
+    "DESCRIPTION": "الوصف",
+    "SERIAL": "الرقم التسلسلي",
+    "WEAPON": "السلاح",
+    "ACTIONS": "الإجراءات",
+    "OFFICERS": "الضباط",
+    "PREFIX": "بادئة",
+    "FINE": "غرامة",
+    "JAIL": "السجن",
+    "POINTS": "النقاط",
+    "WANTED": "مطلوب",
+    "FLAGGED": "معلم بالعلم",
+    "ALL": "الكل"
+  },
+
+  "BOXES": {
+    "IDENTITY": "الهوية",
+    "LICENCES": "التراخيص",
+    "STATS": "الإحصائيات",
+    "ITEMS": "العناصر",
+    "TAGS": "العلامات",
+    "VEHICLES": "المركبات",
+    "HOUSING": "الممتلكات",
+    "EMPLOYMENT": "التوظيف",
+    "CONVICTIONS": "الإدانات",
+    "WEAPONS": "الأسلحة",
+    "ROLES": "الأدوار",
+    "GALLERY": "المعرض",
+    "OFFICERS": "الضباط المتورطين",
+    "CITIZENS": "المواطنين المتورطين",
+    "INCIDENTS": "الحوادث ذات الصلة",
+    "REPORTS": "التقارير ذات الصلة",
+    "EVIDENCE": "الأدلة ذات الصلة",
+    "ACTIVITY": "النشاط"
+  },
+
+  "CAMERA": {
+    "GALLERY": "المعرض",
+    "OPEN": "فتح الكاميرا",
+    "VIEW": "عرض المعرض",
+    "UPLOAD": "تحميل",
+    "DELETE": "حذف"
+  },
+
+  "CHARGES": {
+    "FINE": "${fine} غرامة",
+    "JAIL": "{jail} يوم(أيام)",
+    "POINTS": "{points} نقطة(نقاط)"
+  },
+
+  "EDITOR": {
+    "BOLD": "عريض",
+    "ITALIC": "مائل",
+    "STRIKE": "مشطوب",
+    "TEXT": {
+      "PARAGRAPH": "Paragraph",
+      "H1": "H1",
+      "H2": "H2",
+      "H3": "H3",
+      "H4": "H4",
+      "H5": "H5",
+      "H6": "H6"
+    },
+    "COLOR": "اللون",
+    "CLEAR_MARKS": "مسح العلامات",
+    "CLEAR_NODES": "مسح العقد",
+    "BULLET_LIST": "قائمة نقاط",
+    "ORDERED_LIST": "قائمة مرتبة",
+    "HARD_BREAK": "فاصل صلب",
+    "UNDO": "تراجع",
+    "REDO": "إعادة"
+  },
+
+  "INVENTORY": {
+    "COUNT": "Count: {count}",
+    "ITEM_DATA": {
+      "serial": "{serial} :الرقم التسلسلي",
+      "durability": "{durability} :المتانة",
+      "ammo": "{ammo} :الذخيرة",
+      "street": "{street} :الموقع",
+      "type": "{type} :نوع الفئة",
+      "dnalabel": "{dnalabel} :الحمض النووي",
+      "label": "{label} :التسمية",
+      "date": "{date} :التاريخ",
+      "tracking": "{tracking} :التتبع",
+      "component": "{component} :المكون",
+      "item": "{item} :العنصر",
+      "memoryCard": "{memoryCard} :بطاقة الذاكرة",
+      "flashEnabled": "{flashEnabled} :الفلاش",
+      "birthdate": "{birthdate} :تاريخ الميلاد",
+      "nationality": "{nationality} :الجنسية",
+      "identifier": "{identifier} :الهوية الرقمية",
+      "gender": "{gender} :الجنس",
+      "firstname": "{firstname} :الاسم الأول",
+      "lastname": "{lastname} :الاسم الأخير"
+    }
+  },
+
+  "NO_ACCESS": {
+    "TITLE": "الدخول مرفوض",
+    "DESCRIPTION": "ليس لديك صلاحية الوصول إلى MDT",
+    "BUTTON": "إغلاق"
+  },
+
+  "SUSPENDED": {
+    "TITLE": "الدخول مرفوض",
+    "DESCRIPTION": "يبدو أنك تم إيقافك مؤقتًا، ولا يمكنك الوصول إلى MDT",
+    "BUTTON": "إغلاق"
+  },
+
+  "ERROR403": {
+    "STATUS": "403",
+    "TITLE": "403 - لن تمر",
+    "DESCRIPTION": "أوه ، جاندلف يقوم بحظر الطريق!"
+  }
+}

@@ -11,7 +11,7 @@
       "WEAPON": "Arme enregistré récentes"
     },
     "ANNOUNCEMENTS": {
-      "LABEL": "Announces"
+      "LABEL": "Annonces"
     }
   },
 
@@ -80,8 +80,8 @@
   },
 
   "EVIDENCE": {
-    "LABEL": "Evidence",
-    "EDIT": "Modifier evidence {id}",
+    "LABEL": "Preuves",
+    "EDIT": "Modifier preuve {id}",
     "CATEGORY": "Categorie: {category}"
   },
 
@@ -237,37 +237,37 @@
           "DELETE": "Supprimer une page dans législations"
         },
         "STAFF": {
-          "VIEW": "Access Staff Menu",
-          "VIEW_STAFF": "Access Staff Page",
+          "VIEW": "Accès au menu STAFF",
+          "VIEW_STAFF": "Accès page Staff",
           "SOP": {
-            "VIEW": "Access SOP Page",
-            "SEARCH": "Search SOP Data",
-            "CREATE": "Create SOP Data",
-            "EDIT": "Edit SOP Data",
-            "DELETE": "Delete SOP Data"
+            "VIEW": "Accès Procédures",
+            "SEARCH": "Chercher Procédures",
+            "CREATE": "Créer Procédures",
+            "EDIT": "Modifier Procédures",
+            "DELETE": "Supprimer Procédures"
           },
           "ROSTER": {
-            "VIEW": "Access Roster Page",
-            "EDIT": "Edit Roster Data"
+            "VIEW": "Accès Unités",
+            "EDIT": "Modifier Unités"
           },
           "ACADEMY": {
-            "VIEW": "Access Academy Sheet Page",
-            "ADD": "Add Officers To Academy Sheet",
-            "EDIT": "Edit Academy Sheet Data",
-            "DELETE": "Delete Academy Sheet Data"
+            "VIEW": "Accès page Académique",
+            "ADD": "Ajouter officier à la BDD",
+            "EDIT": "Modifier les données de la BDD",
+            "DELETE": "Supprimer des données de la BDD"
           },
           "DATABASE": {
-            "VIEW": "Access Disciplinary Database Page",
-            "ADD": "Add Officers To Disciplinary Database",
-            "EDIT": "Edit Disciplinary Database Data",
-            "DELETE": "Delete Disciplinary Database Data"
+            "VIEW": "Accès BDD Disciplinaire",
+            "ADD": "Ajouter officier à la BDD",
+            "EDIT": "Modifier les données de la BDD",
+            "DELETE": "Supprimer des données de la BDD"
           },
           "CODES_COMMANDS": {
-            "VIEW": "Access 10 Codes & Commands Page"
+            "VIEW": "Accès aux 10 codes & Commandes"
           }
         },
         "CHARGES": {
-          "VIEW": "Access Charges Page"
+          "VIEW": "Accès aux amendes"
         }
       }
     },

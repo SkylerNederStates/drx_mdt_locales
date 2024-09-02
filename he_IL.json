@@ -3,7 +3,7 @@
     "LABEL": "לוח בקרה",
     "RECENT_ACTIVITES": {
       "LABEL": "פעילויות אחרונות",
-      "INCIDENT": "תקריות אחרונות",
+      "INCIDENT": "תיקים אחרונים",
       "REPORT": "דוחות אחרונים",
       "BOLO": "צווים אחרונים",
       "WARRANT": "צוי חיפוש אחרונים",
@@ -52,14 +52,14 @@
   },
 
   "REPORTS": {
-    "LABEL": "צווים",
-    "EDIT": "ערוך צו {id}"
+    "LABEL": "דיווחים",
+    "EDIT": "ערוך דיווח {id}"
   },
 
   "BOLOS_WARRANTS": {
     "LABEL": "צווים",
     "BOLOS": {
-      "LABEL": "צווים"
+      "LABEL": "צווים - רכבים"
     },
     "WARRANTS": {
       "LABEL": "צווים",
@@ -358,10 +358,10 @@
     "STATEID": "תעודת זהות",
     "FULLNAME": "שם מלא",
     "ALIAS": "כינוי",
-    "DEPARTMENT": "מחלקה",
+    "DEPARTMENT": "גוף",
     "RANK": "דרגה",
     "CALLSIGN": "תג",
-    "BADGENUMBER": "מספר אישי",
+    "BADGENUMBER": "תג",
     "PHOTO": "תמונה",
     "TITLE": "כותרת",
     "NOTES": "הערות",
@@ -409,8 +409,8 @@
     "GALLERY": "גלריה",
     "OFFICERS": "שוטרים מעורבים",
     "CITIZENS": "אזרחים מעורבים",
-    "INCIDENTS": "תקריות קשורות",
-    "REPORTS": "דוחות קשורים",
+    "INCIDENTS": "תיקים קשורים",
+    "REPORTS": "דיווחים קשורים",
     "EVIDENCE": "ראיות קשורות",
     "ACTIVITY": "פעילות"
   },

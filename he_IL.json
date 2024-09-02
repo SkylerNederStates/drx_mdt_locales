@@ -1,0 +1,497 @@
+{
+  "DASHBOARD": {
+    "LABEL": "לוח בקרה",
+    "RECENT_ACTIVITES": {
+      "LABEL": "פעילויות אחרונות",
+      "INCIDENT": "תקריות אחרונות",
+      "REPORT": "דוחות אחרונים",
+      "BOLO": "צווים אחרונים",
+      "WARRANT": "צוי חיפוש אחרונים",
+      "EVIDENCE": "ראיות אחרונות",
+      "WEAPON": "נשקים רשומים אחרונים"
+    },
+    "ANNOUNCEMENTS": {
+      "LABEL": "הודעות"
+    }
+  },
+
+  "CITIZENS": {
+    "LABEL": "אזרחים",
+    "EDIT": "ערוך פרופיל {identifier}",
+    "GRANT": "הענק רישיון",
+    "REVOKE": "בטל רישיון"
+  },
+
+  "INCIDENTS": {
+    "LABEL": "תיקים",
+    "EDIT": "ערוך תיק {id}",
+    "CRIMINAL": {
+      "LABEL": "פושעים",
+      "CRIMINALS": {
+        "LABEL": "(#{identifier}) {fullname}",
+        "EDIT": "ערוך ",
+        "WARRANT": "צו מעצר",
+        "HOLD": "מעצר עד משפט",
+        "TRIAL": "עבר משפט",
+        "REASON": "סיבת צו המעצר",
+        "DATE": "בחר תאריך ושעה",
+        "REDUCTION": {
+          "LABEL": "הפחתה",
+          "PLACEHOLDER": "בחר הפחתה",
+          "DATA": "{percentage}% / {fine}₪ קנס / {jail} חודש(ים) / {points} נקודה(ות)"
+        },
+        "PLEADED": "הודה באשמה",
+        "PROCESSED": "סגירת תיק",
+        "CHARGES": {
+          "SELECTED": "נבחר ",
+          "ALL_CHARGES": "כל האישומים",
+          "NONE_FOUND": "לא נמצאו אישומים"
+        }
+      }
+    }
+  },
+
+  "REPORTS": {
+    "LABEL": "צווים",
+    "EDIT": "ערוך צו {id}"
+  },
+
+  "BOLOS_WARRANTS": {
+    "LABEL": "צווים",
+    "BOLOS": {
+      "LABEL": "צווים"
+    },
+    "WARRANTS": {
+      "LABEL": "צווים",
+      "CLOTHES": {
+        "HAT": "כובע: {type} | {color}",
+        "MASK": "מסכה: {type} | {color}",
+        "JACKET": "מעיל: {type} | {color}",
+        "GLOVES": "כפפות: {type} | {color}",
+        "PANTS": "מכנסיים: {type} | {color}",
+        "SHOES": "נעליים: {type} | {color}"
+      }
+    }
+  },
+
+  "VEHICLES": {
+    "LABEL": "רכבים",
+    "EDIT": "ערוך רכב {plate}"
+  },
+
+  "EVIDENCE": {
+    "LABEL": "ראיות",
+    "EDIT": "ערוך ראיות {id}",
+    "CATEGORY": "קטגוריה: {category}"
+  },
+
+  "CAMERAS": {
+    "LABEL": "מצלמות",
+    "AV1": "AV1",
+    "NO_INPUT": "אין אות כניסה.",
+    "ONLINE": "מחובר"
+  },
+
+  "WEAPON_REGISTRY": {
+    "LABEL": "רישום נשקים",
+    "EDIT": "ערוך נשק {id}"
+  },
+
+  "LEGISLATIONS": {
+    "LABEL": "חקיקות",
+    "EDIT": "ערוך חקיקה {id}"
+  },
+
+  "STAFF": {
+    "LABEL": "צוות",
+
+    "STAFF": {
+      "LABEL": "צוות"
+    },
+
+    "SOP": {
+      "LABEL": "נהלים",
+      "EDIT": "ערוך נוהל {id}"
+    },
+
+    "ROSTER": {
+      "LABEL": "רשומה"
+    },
+
+    "ACADEMY": {
+      "LABEL": "אקדמיה",
+      "ADD": "הוסף שוטר חדש"
+    },
+
+    "DATABASE": {
+      "LABEL": "מאגר משמעת",
+      "ADD": "הוסף שוטר חדש"
+    },
+
+    "CODES_COMMANDS": {
+      "LABEL": "קודים ופקודות",
+      "CODES": {
+        "LABEL": "קודים",
+        "CODE": "קוד",
+        "DESCRIPTION": "תיאור"
+      },
+      "COMMANDS": {
+        "LABEL": "פקודות",
+        "COMMAND": "פקודה",
+        "ACTION": "פעולה"
+      }
+    }
+  },
+
+  "CHARGE": {
+    "LABEL": "אישומים"
+  },
+
+  "CONFIGURATIONS": {
+    "LABEL": "הגדרות",
+
+    "STAFF": {
+      "LABEL": "צוות",
+      "EDIT": "ערוך צוות {identifier}",
+      "DATA": "נתונים",
+      "NO_ACTIVITY": "אין פעילות עדיין",
+      "CLOCKED_IN": "במשמרת",
+      "CLOCKED_OUT": "מחוץ למשמרת",
+      "SUSPEND": "השעה",
+      "FIRE": "פטר"
+    },
+
+    "ROLES": {
+      "LABEL": "רולים",
+      "NEW": "רול חדש",
+      "DESCRIPTION": "בחר רולים ספציפיים שהשוטר צריך לקבל הרשאות אליהם",
+      "LABELS": {
+        "FULL_ACCESS": "גישה מלאה",
+        "CONFIGURATIONS": {
+          "VIEW": "גישה להגדרות",
+          "STAFF": "ניהול נתוני צוות",
+          "STAFF_ROLES": "ערוך תפקידי צוות",
+          "ROLES": "ניהול נתוני תפקידים",
+          "": "ניהול נתונים"
+        },
+        "DASHBOARD": {
+          "VIEW": "גישה לדף לוח הבקרה",
+          "ANNOUNCEMENTS": {
+            "CREATE": "צור הודעות",
+            "EDIT": "ערוך הודעות",
+            "DELETE": "מחק הודעות"
+          }
+        },
+        "CITIZENS": {
+          "VIEW": "גישה לדף אזרחים",
+          "SEARCH": "חיפוש נתוני אזרחים",
+          "EDIT": "ערוך נתוני אזרחים"
+        },
+        "INCIDENTS": {
+          "VIEW": "גישה לדף תיקים",
+          "SEARCH": "חיפוש נתוני תיקים",
+          "CREATE": "צור נתוני תיקים",
+          "EDIT": "ערוך נתוני תיקים",
+          "DELETE": "מחק נתוני תיקים"
+        },
+        "REPORTS": {
+          "VIEW": "גישה לדף דוחות",
+          "SEARCH": "חיפוש נתוני דוחות",
+          "CREATE": "צור נתוני דוחות",
+          "EDIT": "ערוך נתוני דוחות",
+          "DELETE": "מחק נתוני דוחות"
+        },
+        "BOLOS_WARRANTS": {
+          "VIEW": "גישה לדף צווים",
+          "CREATE": "צור נתוני צווים",
+          "EDIT": "ערוך נתוני צווים",
+          "DELETE": "מחק נתוני צווים"
+        },
+        "VEHICLES": {
+          "VIEW": "גישה לדף רכבים",
+          "SEARCH": "חיפוש נתוני רכבים",
+          "EDIT": "ערוך נתוני רכבים"
+        },
+        "EVIDENCE": {
+          "VIEW": "גישה לדף ראיות",
+          "SEARCH": "חיפוש נתוני ראיות",
+          "CREATE": "צור נתוני ראיות",
+          "EDIT": "ערוך נתוני ראיות",
+          "DELETE": "מחק נתוני ראיות"
+        },
+        "CAMERAS": {
+          "VIEW": "גישה לדף מצלמות"
+        },
+        "WEAPON_REGISTRY": {
+          "VIEW": "גישה לדף רישום נשקים",
+          "SEARCH": "חיפוש נתוני רישום נשקים",
+          "CREATE": "צור נתוני רישום נשקים",
+          "EDIT": "ערוך נתוני רישום נשקים",
+          "DELETE": "מחק נתוני רישום נשקים"
+        },
+        "LEGISLATIONS": {
+          "VIEW": "גישה לדף חקיקות",
+          "SEARCH": "חיפוש נתוני חקיקות",
+          "CREATE": "צור נתוני חקיקות",
+          "EDIT": "ערוך נתוני חקיקות",
+          "DELETE": "מחק נתוני חקיקות"
+        },
+        "STAFF": {
+          "VIEW": "גישה לתפריט צוות",
+          "VIEW_STAFF": "גישה לדף צוות",
+          "SOP": {
+            "VIEW": "גישה לדף נהלים",
+            "SEARCH": "חיפוש נתוני נהלים",
+            "CREATE": "צור נתוני נהלים",
+            "EDIT": "ערוך נתוני נהלים",
+            "DELETE": "מחק נתוני נהלים"
+          },
+          "ROSTER": {
+            "VIEW": "גישה לדף רשימת צוות",
+            "EDIT": "ערוך נתוני רשימת צוות"
+          },
+          "ACADEMY": {
+            "VIEW": "גישה לדף אקדמיה",
+            "ADD": "הוסף שוטרים לאקדמיה",
+            "EDIT": "ערוך נתוני אקדמיה",
+            "DELETE": "מחק נתוני אקדמיה"
+          },
+          "DATABASE": {
+            "VIEW": "גישה לדף מאגר משמעת",
+            "ADD": "הוסף שוטרים למאגר משמעת",
+            "EDIT": "ערוך נתוני מאגר משמעת",
+            "DELETE": "מחק נתוני מאגר משמעת"
+          },
+          "CODES_COMMANDS": {
+            "VIEW": "גישה לדף קודים ופקודות"
+          }
+        },
+        "CHARGES": {
+          "VIEW": "גישה לדף אישומים"
+        }
+      }
+    },
+
+    "CHARGES": {
+      "LABEL": "אישומים",
+      "CHARGES": {
+        "LABEL": "אישומים"
+      },
+      "CATEGORIES": {
+        "LABEL": "קטגוריות"
+      }
+    }
+  },
+
+  "DATE": {
+    "YEAR": "שנה",
+    "MONTH": "חודש",
+    "DAY": "יום",
+    "HOUR": "שעה",
+    "MINUTE": "דקה",
+    "SECOND": "שנייה",
+    "S": "ש",
+    "AGO": "לפני",
+    "LEFT": "נותר",
+    "JUST_NOW": "רק עכשיו",
+    "EXPIRED": "פג תוקף",
+    "AND": "+"
+  },
+
+  "AVATAR": "תמונה",
+  "OFFICER": "שוטר",
+  "STATUS": "סטטוס",
+  "ACTIVE": "פעיל",
+  "INACTIVE": "לא פעיל",
+  "ACTIONS": "פעולות",
+  "SET_WAYPOINT": "הגדר נקודת ציון",
+  "UNKNOWN_CATEGORY": "קטגוריה לא ידועה",
+
+  "STATEID": "תעודת זהות: (#{identifier})",
+  "FULLNAME": "שם מלא: {fullname}",
+  "BADGENUMBER": "מספר תג: {badgenumber}",
+  "CREATED_BY": "נוצר על ידי: {user}",
+  "TAG": "(#{identifier}) {fullname}",
+  "POSTED_BY": "פורסם על ידי: {user}",
+  "OWNED_BY": "בבעלות: (#{identifier}) {fullname}",
+  "LAST_SEEN": "נראה לאחרונה {date}",
+  "AUTHOR": "כותב: {user}",
+  "OWNER": "בעלים: {owner}",
+  "PLATE": "מספר לוחית: {plate}",
+  "COLOR": "צבע: {color}",
+  "REASON": "סיבה: {reason}",
+  "EXPIRES": "פג תוקף: {date}",
+  "DESCRIPTION": "{description}",
+  "FINE": "קנס: {fine}₪",
+  "JAIL": "זמן בכלא: {jail} חודש(ים)",
+  "POINTS": "נקודות: {points}",
+  "CATEGORY": "קטגוריה: {category}",
+
+  "VIEW": "צפה",
+  "EDIT": "ערוך",
+  "SEARCH": "חפש",
+  "CREATE": "צור",
+  "UNLINK": "נתק",
+  "SAVE": "שמור",
+  "UPDATE": "עדכן",
+  "DELETE": "מחק",
+  "CLEAR": "נקה",
+  "CLOSE": "סגור",
+  "JOIN": "הצטרף",
+  "LEAVE": "עזוב",
+  "REMOVE": "הסר",
+  "ADD": "הוסף",
+  "CANCEL": "בטל",
+  "CONFIRM": "אשר",
+  "RESUME": "המשך",
+
+  "POPUP": {
+    "CANCEL": "בטל",
+    "CONFIRM": "אשר",
+    "IMAGE": "האם אתה בטוח שברצונך להסיר תמונה זו מהגלריה?",
+    "SAVE": "האם ברצונך לשמור את {label}?",
+    "DELETE": "האם ברצונך למחוק את {label}?",
+    "ACTIVITY": "האם אתה בטוח שברצונך לנקות את נתוני הפעילות של שוטר זה?"
+  },
+
+  "PLACEHOLDER": {
+    "STATEID": "תעודת זהות",
+    "FULLNAME": "שם מלא",
+    "ALIAS": "כינוי",
+    "DEPARTMENT": "מחלקה",
+    "RANK": "דרגה",
+    "CALLSIGN": "תג",
+    "BADGENUMBER": "מספר אישי",
+    "PHOTO": "תמונה",
+    "TITLE": "כותרת",
+    "NOTES": "הערות",
+    "LOCATION": "מיקום",
+    "AUTHOR": "מחבר",
+    "CATEGORY": "קטגוריה",
+    "UNKNOWN": "לא ידוע",
+    "REASON": "סיבה",
+    "PLATE": "מספר לוחית",
+    "OWNER": "בעלים",
+    "COLOR": "צבע",
+    "DATE": "תאריך ושעה",
+    "SEARCH": "חיפוש",
+    "SELECT": "בחר",
+    "FILTER": "סנן",
+    "CLOTHING": "סוג לבוש",
+    "LINK": "הוסף קישור",
+    "LABEL": "תווית",
+    "DESCRIPTION": "תיאור",
+    "SERIAL": "מספר סידורי",
+    "WEAPON": "נשק",
+    "ACTIONS": "פעולות",
+    "OFFICERS": "שוטרים",
+    "PREFIX": "תחילית",
+    "FINE": "קנס",
+    "JAIL": "מאסר",
+    "POINTS": "נקודות",
+    "WANTED": "מבוקש",
+    "FLAGGED": "מסומן",
+    "ALL": "הכל"
+  },
+
+  "BOXES": {
+    "IDENTITY": "זהות",
+    "LICENCES": "רישיונות",
+    "STATS": "סטטיסטיקות",
+    "ITEMS": "פריטים",
+    "TAGS": "תגיות",
+    "VEHICLES": "רכבים",
+    "HOUSING": "בתים",
+    "EMPLOYMENT": "תעסוקה",
+    "CONVICTIONS": "הרשעות",
+    "WEAPONS": "נשקים",
+    "ROLES": "תפקידים",
+    "GALLERY": "גלריה",
+    "OFFICERS": "שוטרים מעורבים",
+    "CITIZENS": "אזרחים מעורבים",
+    "INCIDENTS": "תקריות קשורות",
+    "REPORTS": "דוחות קשורים",
+    "EVIDENCE": "ראיות קשורות",
+    "ACTIVITY": "פעילות"
+  },
+
+  "CAMERA": {
+    "GALLERY": "גלריה",
+    "OPEN": "פתח מצלמה",
+    "VIEW": "צפה בגלריה",
+    "UPLOAD": "העלה",
+    "DELETE": "מחק"
+  },
+
+  "CHARGES": {
+    "FINE": "{fine}₪ קנס",
+    "JAIL": "{jail} חודשים בכלא",
+    "POINTS": "{points} נקודות"
+  },
+
+  "EDITOR": {
+    "BOLD": "הדדגשה",
+    "ITALIC": "נטוי",
+    "STRIKE": "קו חוצה",
+    "TEXT": {
+      "PARAGRAPH": "פסקה",
+      "H1": "H1",
+      "H2": "H2",
+      "H3": "H3",
+      "H4": "H4",
+      "H5": "H5",
+      "H6": "H6"
+    },
+    "COLOR": "צבע",
+    "CLEAR_MARKS": "נקה סימונים",
+    "CLEAR_NODES": "נקה צמתים",
+    "BULLET_LIST": "רשימה עם נקודות",
+    "ORDERED_LIST": "רשימה ממוספרת",
+    "HARD_BREAK": "שבירה קשה",
+    "UNDO": "בטל",
+    "REDO": "בצע שוב"
+  },
+
+  "INVENTORY": {
+    "COUNT": "כמות: {count}",
+    "ITEM_DATA": {
+      "serial": "מספר סידורי: {serial}",
+      "durability": "עמידות: {durability}",
+      "ammo": "תחמושת: {ammo}",
+      "street": "מיקום: {street}",
+      "type": "סוג קטגוריה: {type}",
+      "dnalabel": "DNA: {dnalabel}",
+      "label": "תווית: {label}",
+      "date": "תאריך: {date}",
+      "tracking": "מעקב: {tracking}",
+      "component": "רכיב: {component}",
+      "item": "פריט: {item}",
+      "memoryCard": "כרטיס זיכרון {memoryCard}",
+      "flashEnabled": "פלאש: {flashEnabled}",
+      "birthdate": "תאריך לידה: {birthdate}",
+      "nationaility": "לאום: {nationaility}",
+      "identifier": "תעודת זהות: {identifier}",
+      "gender": "מגדר: {gender}",
+      "firstname": "שם פרטי: {firstname}",
+      "lastname": "שם משפחה: {lastname}"
+    }
+  },
+
+  "NO_ACCESS": {
+    "TITLE": "גישה נדחתה",
+    "DESCRIPTION": "אין לך גישה למערכת MDT",
+    "BUTTON": "סגור"
+  },
+
+  "SUSPENDED": {
+    "TITLE": "גישה נדחתה",
+    "DESCRIPTION": "נראה כי הושעתה, ואין לך גישה למערכת MDT",
+    "BUTTON": "סגור"
+  },
+
+  "ERROR403": {
+    "STATUS": "403",
+    "TITLE": "403 - לא תעבור",
+    "DESCRIPTION": "אוי לא, גנדלף חוסם את הדרך!"
+  }
+}

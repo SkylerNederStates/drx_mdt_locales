@@ -1,0 +1,497 @@
+{
+  "DASHBOARD": {
+    "LABEL": "Ana Sayfa",
+    "RECENT_ACTIVITES": {
+      "LABEL": "Son Aktiviteler",
+      "INCIDENT": "Son Olaylar",
+      "REPORT": "Son Raporlar",
+      "BOLO": "Son BOLO'lar",
+      "WARRANT": "Son Tutuklama Emirleri",
+      "EVIDENCE": "Son Deliller",
+      "WEAPON": "Son Kayıtlı Silahlar"
+    },
+    "ANNOUNCEMENTS": {
+      "LABEL": "Duyurular"
+    }
+  },
+
+  "CITIZENS": {
+    "LABEL": "Vatandaşlar",
+    "EDIT": "Vatandaşı Düzenle {identifier}",
+    "GRANT": "Lisans Ver",
+    "REVOKE": "Lisansı Geri Al"
+  },
+
+  "INCIDENTS": {
+    "LABEL": "Olaylar",
+    "EDIT": "Olayı Düzenle {id}",
+    "CRIMINAL": {
+      "LABEL": "Suçlular",
+      "CRIMINALS": {
+        "LABEL": "(#{identifier}) {fullname}",
+        "EDIT": "Düzenle",
+        "WARRANT": "Tutuklama Emri",
+        "HOLD": "Mahkemeye Kadar Tutuklu",
+        "TRIAL": "Mahkemeye Çıktı",
+        "REASON": "Tutuklama Nedeni",
+        "DATE": "Tarih ve Saat Seç",
+        "REDUCTION": {
+          "LABEL": "İndirim",
+          "PLACEHOLDER": "İndirim Seç",
+          "DATA": "{percentage}% / ${fine} ceza / {jail} ay hapis / {points} puan"
+        },
+        "PLEADED": "Suçu Kabul Etti",
+        "PROCESSED": "İşlendi",
+        "CHARGES": {
+          "SELECTED": "Seçilen",
+          "ALL_CHARGES": "Tüm Ceza Kanunu",
+          "NONE_FOUND": "Hiçbir şey Bulunamadı"
+        }
+      }
+    }
+  },
+
+  "REPORTS": {
+    "LABEL": "Raporlar",
+    "EDIT": "Raporu Düzenle {id}"
+  },
+
+  "BOLOS_WARRANTS": {
+    "LABEL": "BOLO'lar ve Emirler",
+    "BOLOS": {
+      "LABEL": "BOLO'lar"
+    },
+    "WARRANTS": {
+      "LABEL": "Emirler",
+      "CLOTHES": {
+        "HAT": "Şapka: {type} | {color}",
+        "MASK": "Maske: {type} | {color}",
+        "JACKET": "Ceket: {type} | {color}",
+        "GLOVES": "Eldiven: {type} | {color}",
+        "PANTS": "Pantolon: {type} | {color}",
+        "SHOES": "Ayakkabı: {type} | {color}"
+      }
+    }
+  },
+
+  "VEHICLES": {
+    "LABEL": "Araçlar",
+    "EDIT": "Aracı Düzenle {plate}"
+  },
+
+  "EVIDENCE": {
+    "LABEL": "Deliller",
+    "EDIT": "Delili Düzenle {id}",
+    "CATEGORY": "Kategori: {category}"
+  },
+
+  "CAMERAS": {
+    "LABEL": "Kameralar",
+    "AV1": "AV1",
+    "NO_INPUT": "Sinyal yok.",
+    "ONLINE": "Çevrimiçi"
+  },
+
+  "WEAPON_REGISTRY": {
+    "LABEL": "Silah Kaydı",
+    "EDIT": "Silahı Düzenle {id}"
+  },
+
+  "LEGISLATIONS": {
+    "LABEL": "Yasalar",
+    "EDIT": "Yasayı Düzenle {id}"
+  },
+
+  "STAFF": {
+    "LABEL": "Personel",
+
+    "STAFF": {
+      "LABEL": "Personel"
+    },
+
+    "SOP": {
+      "LABEL": "İşlem Prosedürleri",
+      "EDIT": "İşlem Presodürü'nü Düzenle {id}"
+    },
+
+    "ROSTER": {
+      "LABEL": "Personel Listesi"
+    },
+
+    "ACADEMY": {
+      "LABEL": "Akademi Dosyası",
+      "ADD": "Yeni Memur Ekle"
+    },
+
+    "DATABASE": {
+      "LABEL": "Disiplin Veritabanı",
+      "ADD": "Yeni Memur Ekle"
+    },
+
+    "CODES_COMMANDS": {
+      "LABEL": "10'lu Kodlar ve komutlar",
+      "CODES": {
+        "LABEL": "10'lu Kodlar",
+        "CODE": "Kod",
+        "DESCRIPTION": "Açıklaması"
+      },
+      "COMMANDS": {
+        "LABEL": "Komutlar",
+        "COMMAND": "Komut",
+        "ACTION": "Görevi"
+      }
+    }
+  },
+
+  "CHARGE": {
+    "LABEL": "Ceza Kanunu"
+  },
+
+  "CONFIGURATIONS": {
+    "LABEL": "Personel Profilleri",
+
+    "STAFF": {
+      "LABEL": "Personel",
+      "EDIT": "Personeli Düzenle {identifier}",
+      "DATA": "Veri",
+      "NO_ACTIVITY": "Henüz Aktivite Yok",
+      "CLOCKED_IN": "Mesai'ye Giriş Yaptı",
+      "CLOCKED_OUT": "Mesai'den Çıkış Yaptı",
+      "SUSPEND": "Askıya Al",
+      "FIRE": "İşten Çıkar"
+    },
+
+    "ROLES": {
+      "LABEL": "Roller",
+      "NEW": "Yeni Rol",
+      "DESCRIPTION": "Memurun yetki sahibi olacağı belirli rolleri seçin",
+      "LABELS": {
+        "FULL_ACCESS": "Tam Erişim",
+        "CONFIGURATIONS": {
+          "VIEW": "Personel Profillerine Eriş",
+          "STAFF": "Personel Verilerini Kontrol Et",
+          "STAFF_ROLES": "Personel Rollerini Düzenle",
+          "ROLES": "Rol Verilerini Kontrol Et",
+          "": "Verileri Kontrol Et"
+        },
+        "DASHBOARD": {
+          "VIEW": "Ana Sayfa'ya Eriş",
+          "ANNOUNCEMENTS": {
+            "CREATE": "Duyuru Oluştur",
+            "EDIT": "Duyuru Düzenle",
+            "DELETE": "Duyuru Sil"
+          }
+        },
+        "CITIZENS": {
+          "VIEW": "Vatandaş Sayfasına Eriş",
+          "SEARCH": "Vatandaş Verilerini Ara",
+          "EDIT": "Vatandaş Verilerini Düzenle"
+        },
+        "INCIDENTS": {
+          "VIEW": "Olaylar Sayfasına Eriş",
+          "SEARCH": "Olay Verilerini Ara",
+          "CREATE": "Olay Verileri Oluştur",
+          "EDIT": "Olay Verilerini Düzenle",
+          "DELETE": "Olay Verilerini Sil"
+        },
+        "REPORTS": {
+          "VIEW": "Raporlar Sayfasına Eriş",
+          "SEARCH": "Rapor Verilerini Ara",
+          "CREATE": "Rapor Verileri Oluştur",
+          "EDIT": "Rapor Verilerini Düzenle",
+          "DELETE": "Rapor Verilerini Sil"
+        },
+        "BOLOS_WARRANTS": {
+          "VIEW": "BOLO'lar ve Emirler Sayfasına Eriş",
+          "CREATE": "BOLO'lar ve Emirler Verisi Oluştur",
+          "EDIT": "BOLO'lar ve Emirler Verisini Düzenle",
+          "DELETE": "BOLO'lar ve Emirler Verisini Sil"
+        },
+        "VEHICLES": {
+          "VIEW": "Araçlar Sayfasına Eriş",
+          "SEARCH": "Araç Verilerini Ara",
+          "EDIT": "Araç Verilerini Düzenle"
+        },
+        "EVIDENCE": {
+          "VIEW": "Deliller Sayfasına Eriş",
+          "SEARCH": "Delil Verilerini Ara",
+          "CREATE": "Delil Verisi Oluştur",
+          "EDIT": "Delil Verisini Düzenle",
+          "DELETE": "Delil Verisini Sil"
+        },
+        "CAMERAS": {
+          "VIEW": "Kameralar Sayfasına Eriş"
+        },
+        "WEAPON_REGISTRY": {
+          "VIEW": "Silah Kaydı Sayfasına Eriş",
+          "SEARCH": "Silah Kaydı Verilerini Ara",
+          "CREATE": "Silah Kaydı Verisi Oluştur",
+          "EDIT": "Silah Kaydı Verisini Düzenle",
+          "DELETE": "Silah Kaydı Verisini Sil"
+        },
+        "LEGISLATIONS": {
+          "VIEW": "Yasalar Sayfasına Eriş",
+          "SEARCH": "Yasa Verilerini Ara",
+          "CREATE": "Yasa Verisi Oluştur",
+          "EDIT": "Yasa Verisini Düzenle",
+          "DELETE": "Yasa Verisini Sil"
+        },
+        "STAFF": {
+          "VIEW": "Personel Menüsüne Eriş",
+          "VIEW_STAFF": "Personel Sayfasına Eriş",
+          "SOP": {
+            "VIEW": "İşlem Prosedürleri Sayfasına Eriş",
+            "SEARCH": "İşlem Prosedürleri Verilerini Ara",
+            "CREATE": "İşlem Prosedürleri Verisi Oluştur",
+            "EDIT": "İşlem Prosedürleri Verisini Düzenle",
+            "DELETE": "İşlem Prosedürleri Verisini Sil"
+          },
+          "ROSTER": {
+            "VIEW": "Personel Listesi Sayfasına Eriş",
+            "EDIT": "Personel Listesi Verilerini Düzenle"
+          },
+          "ACADEMY": {
+            "VIEW": "Akademi Dosyası Sayfasına Eriş",
+            "ADD": "Akademi Dosyasına Memur Ekle",
+            "EDIT": "Akademi Dosyası Verilerini Düzenle",
+            "DELETE": "Akademi Dosyası Verilerini Sil"
+          },
+          "DATABASE": {
+            "VIEW": "Disiplin Veritabanı Sayfasına Eriş",
+            "ADD": "Disiplin Veritabanına Memur Ekle",
+            "EDIT": "Disiplin Veritabanı Verilerini Düzenle",
+            "DELETE": "Disiplin Veritabanı Verilerini Sil"
+          },
+          "CODES_COMMANDS": {
+            "VIEW": "10'lu Kodlar ve Komutlar Sayfasına Eriş"
+          }
+        },
+        "CHARGES": {
+          "VIEW": "Ceza Kanunu Sayfasına Eriş"
+        }
+      }
+    },
+
+    "CHARGES": {
+      "LABEL": "Ceza Kanunu",
+      "CHARGES": {
+        "LABEL": "Ceza Kanunu"
+      },
+      "CATEGORIES": {
+        "LABEL": "Kategoriler"
+      }
+    }
+  },
+
+  "DATE": {
+    "YEAR": "yıl",
+    "MONTH": "ay",
+    "DAY": "gün",
+    "HOUR": "saat",
+    "MINUTE": "dakika",
+    "SECOND": "saniye",
+    "S": "sn",
+    "AGO": "önce",
+    "LEFT": "Sonra",
+    "JUST_NOW": "Şu an",
+    "EXPIRED": "Süresi doldu",
+    "AND": "ve"
+  },
+
+  "AVATAR": "Profil",
+  "OFFICER": "Memur",
+  "STATUS": "Durum",
+  "ACTIVE": "Aktif",
+  "INACTIVE": "Pasif",
+  "ACTIONS": "Eylemler",
+  "SET_WAYPOINT": "Konum işareti ayarla",
+  "UNKNOWN_CATEGORY": "Bilinmeyen Kategori",
+
+  "STATEID": "Devlet ID: (#{identifier})",
+  "FULLNAME": "Tam İsim: {fullname}",
+  "BADGENUMBER": "Rozet#: {badgenumber}",
+  "CREATED_BY": "{user} tarafından oluşturuldu",
+  "TAG": "(#{identifier}) {fullname}",
+  "POSTED_BY": "{user} tarafından gönderildi",
+  "OWNED_BY": "Sahibi: (#{identifier}) {fullname}",
+  "LAST_SEEN": "Son görüldüğü zaman {date}",
+  "AUTHOR": "Yazar: {user}",
+  "OWNER": "Sahibi: {owner}",
+  "PLATE": "Plaka: {plate}",
+  "COLOR": "Renk: {color}",
+  "REASON": "Neden: {reason}",
+  "EXPIRES": "Süresi doluyor: {date}",
+  "DESCRIPTION": "{description}",
+  "FINE": "Ceza: ${fine}",
+  "JAIL": "Hapis süresi: {jail} ay",
+  "POINTS": "Puan(lar): {points}",
+  "CATEGORY": "Kategori: {category}",
+
+  "VIEW": "Görüntüle",
+  "EDIT": "Düzenle",
+  "SEARCH": "Ara",
+  "CREATE": "Oluştur",
+  "UNLINK": "Bağlantıyı kaldır",
+  "SAVE": "Kaydet",
+  "UPDATE": "Güncelle",
+  "DELETE": "Sil",
+  "CLEAR": "Temizle",
+  "CLOSE": "Kapat",
+  "JOIN": "Katıl",
+  "LEAVE": "Ayrıl",
+  "REMOVE": "Kaldır",
+  "ADD": "Ekle",
+  "CANCEL": "İptal",
+  "CONFIRM": "Onayla",
+  "RESUME": "Devam et",
+
+  "POPUP": {
+    "CANCEL": "İptal",
+    "CONFIRM": "Onayla",
+    "IMAGE": "Bu resmi galeriden kaldırmak istediğinizden emin misiniz?",
+    "SAVE": "{label} kaydedilsin mi?",
+    "DELETE": "{label} silinsin mi?",
+    "ACTIVITY": "Bu memurun aktivite verilerini temizlemek istediğinizden emin misiniz?"
+  },
+
+  "PLACEHOLDER": {
+    "STATEID": "Devlet ID",
+    "FULLNAME": "Tam İsim",
+    "ALIAS": "Takma Ad",
+    "DEPARTMENT": "Birim",
+    "RANK": "Rütbe",
+    "CALLSIGN": "Çağrı Kodu",
+    "BADGENUMBER": "Rozet#",
+    "PHOTO": "Fotoğraf",
+    "TITLE": "Başlık",
+    "NOTES": "Notlar",
+    "LOCATION": "Konum",
+    "AUTHOR": "Yazar",
+    "CATEGORY": "Kategori",
+    "UNKNOWN": "Bilinmiyor",
+    "REASON": "Neden",
+    "PLATE": "Plaka",
+    "OWNER": "Sahip",
+    "COLOR": "Renk",
+    "DATE": "Tarih ve saat",
+    "SEARCH": "Ara",
+    "SELECT": "Seç",
+    "FILTER": "Filtrele",
+    "CLOTHING": "Giyim türü",
+    "LINK": "Bağlantı ekle",
+    "LABEL": "Etiket",
+    "DESCRIPTION": "Açıklama",
+    "SERIAL": "Seri",
+    "WEAPON": "Silah",
+    "ACTIONS": "Eylemler",
+    "OFFICERS": "Memurlar",
+    "PREFIX": "Örnek",
+    "FINE": "Ceza",
+    "JAIL": "Hapis",
+    "POINTS": "Puan",
+    "WANTED": "ARANIYOR",
+    "FLAGGED": "İŞARETLENDİ",
+    "ALL": "Tümü"
+  },
+
+  "BOXES": {
+    "IDENTITY": "Kimlik",
+    "LICENCES": "Lisanslar",
+    "STATS": "İstatistikler",
+    "ITEMS": "Eşyalar",
+    "TAGS": "Etiketler",
+    "VEHICLES": "Araçlar",
+    "HOUSING": "Evler",
+    "EMPLOYMENT": "İş",
+    "CONVICTIONS": "Mahkumiyetler",
+    "WEAPONS": "Silahlar",
+    "ROLES": "Roller",
+    "GALLERY": "Galeri",
+    "OFFICERS": "İlgili Memurlar",
+    "CITIZENS": "İlgili Vatandaşlar",
+    "INCIDENTS": "İlgili Olaylar",
+    "REPORTS": "İlgili Raporlar",
+    "EVIDENCE": "İlgili Deliller",
+    "ACTIVITY": "Aktivite"
+  },
+
+  "CAMERA": {
+    "GALLERY": "Galeri",
+    "OPEN": "Kamerayı aç",
+    "VIEW": "Galeriyi görüntüle",
+    "UPLOAD": "Yükle",
+    "DELETE": "Sil"
+  },
+
+  "CHARGES": {
+    "FINE": "${fine} Ceza",
+    "JAIL": "{jail} Ay Hapis",
+    "POINTS": "{points} Puan"
+  },
+
+  "EDITOR": {
+    "BOLD": "Kalın",
+    "ITALIC": "İtalik",
+    "STRIKE": "Üstü çizili",
+    "TEXT": {
+      "PARAGRAPH": "Paragraf",
+      "H1": "H1",
+      "H2": "H2",
+      "H3": "H3",
+      "H4": "H4",
+      "H5": "H5",
+      "H6": "H6"
+    },
+    "COLOR": "Renk",
+    "CLEAR_MARKS": "İşaretleri temizle",
+    "CLEAR_NODES": "Düğümleri temizle",
+    "BULLET_LIST": "Noktalı liste",
+    "ORDERED_LIST": "Sıralı liste",
+    "HARD_BREAK": "Satır sonu",
+    "UNDO": "Geri al",
+    "REDO": "Yinele"
+  },
+
+  "INVENTORY": {
+    "COUNT": "Adet: {count}",
+    "ITEM_DATA": {
+      "serial": "Seri: {serial}",
+      "durability": "Dayanıklılık: {durability}",
+      "ammo": "Mermi: {ammo}",
+      "street": "Konum: {street}",
+      "type": "Kategori türü: {type}",
+      "dnalabel": "DNA: {dnalabel}",
+      "label": "Etiket: {label}",
+      "date": "Tarih: {date}",
+      "tracking": "Takip: {tracking}",
+      "component": "Bileşen: {component}",
+      "item": "Eşya: {item}",
+      "memoryCard": "Hafıza kartı {memoryCard}",
+      "flashEnabled": "Flaş: {flashEnabled}",
+      "birthdate": "Doğum Tarihi: {birthdate}",
+      "nationaility": "Uyruğu: {nationaility}",
+      "identifier": "Devlet ID: {identifier}",
+      "gender": "Cinsiyet: {gender}",
+      "firstname": "Adı: {firstname}",
+      "lastname": "Soyadı: {lastname}"
+    }
+  },
+
+  "NO_ACCESS": {
+    "TITLE": "ERİŞİM YASAK",
+    "DESCRIPTION": "MDT'ye erişiminiz yok",
+    "BUTTON": "Kapat"
+  },
+
+  "SUSPENDED": {
+    "TITLE": "ERİŞİM YASAK",
+    "DESCRIPTION": "Görünüşe göre askıya alınmışsınız ve MDT'ye erişiminiz yok",
+    "BUTTON": "Kapat"
+  },
+
+  "ERROR403": {
+    "STATUS": "403",
+    "TITLE": "Hata - 403",
+    "DESCRIPTION": "Uh oh, Gandalf yolu kapatıyor!"
+  }
+}

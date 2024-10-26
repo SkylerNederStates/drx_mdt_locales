@@ -1,0 +1,496 @@
+{
+"DASHBOARD": {
+    "LABEL": "Dashboard",
+    "RECENT_ACTIVITES": {
+      "LABEL": "Recente Activiteiten",
+      "INCIDENT": "Recente Incidenten",
+      "REPORT": "Recente Rapporten",
+      "BOLO": "Recente BOLO's",
+      "WARRANT": "Recente Aanhoudingsbevelen",
+      "EVIDENCE": "Recent Bewijsmateriaal",
+      "WEAPON": "Recent Geregistreerde Wapens"
+    },
+    "ANNOUNCEMENTS": {
+      "LABEL": "Mededelingen"
+    }
+  },
+
+  "CITIZENS": {
+"LABEL": "Burgers",
+"EDIT": "Bewerk burger {identifier}",
+"GRANT": "Verleen Licentie",
+"REVOKE": "Trek Licentie in"
+  },
+
+  "INCIDENTS": {
+"LABEL": "Incidenten",
+"EDIT": "Bewerk incident {id}",
+"CRIMINAL": {
+  "LABEL": "Criminele Schurken",
+  "CRIMINALS": {
+    "LABEL": "(#{identifier}) {fullname}",
+    "EDIT": "Bewerk",
+    "WARRANT": "Aanhoudingsbevel",
+    "HOLD": "Vasthouden tot proces",
+    "TRIAL": "Proces gehad",
+    "REASON": "Reden voor aanhoudingsbevel",
+    "DATE": "Selecteer Datum en Tijd",
+    "REDUCTION": {
+      "LABEL": "Vermindering",
+      "PLACEHOLDER": "Selecteer vermindering",
+      "DATA": "{percentage}% / ${fine} boete / {jail} maand(en) / {points} punt(en)"
+        },
+      "PLEADED": "Bekende Schuld",
+      "PROCESSED": "Verwerkt",
+      "CHARGES": {
+      "SELECTED": "Geselecteerd",
+      "ALL_CHARGES": "Alle aanklachten",
+      "NONE_FOUND": "Geen gevonden"
+        }
+      }
+    }
+  },
+
+"REPORTS": {
+  "LABEL": "Rapporten",
+  "EDIT": "Bewerk rapport {id}"
+  },
+
+  "BOLOS_WARRANTS": {
+"LABEL": "BOLO's & Aanhoudingsbevelen",
+"BOLOS": {
+  "LABEL": "BOLO's"
+    },
+    "WARRANTS": {
+"LABEL": "Aanhoudingsbevelen",
+"CLOTHES": {
+  "HAT": "Hoed: {type} | {color}",
+  "MASK": "Masker: {type} | {color}",
+  "JACKET": "Jas: {type} | {color}",
+  "GLOVES": "Handschoenen: {type} | {color}",
+  "PANTS": "Broek: {type} | {color}",
+  "SHOES": "Schoenen: {type} | {color}"
+      }
+    }
+  },
+
+  "VEHICLES": {
+"LABEL": "Voertuigen",
+"EDIT": "Bewerk voertuig {plate}"
+  },
+
+  "EVIDENCE": {
+"LABEL": "Bewijsmateriaal",
+"EDIT": "Bewerk bewijsmateriaal {id}",
+"CATEGORY": "Categorie: {category}"
+  },
+
+  "CAMERAS": {
+"LABEL": "Camera's",
+"AV1": "AV1",
+"NO_INPUT": "Geen invoersignaal.",
+"ONLINE": "Online"
+  },
+
+  "WEAPON_REGISTRY": {
+"LABEL": "Wapenregister",
+"EDIT": "Bewerk wapen {id}"
+  },
+
+  "LEGISLATIONS": {
+"LABEL": "Wetgeving",
+"EDIT": "Bewerk wetgeving {id}"
+  },
+
+  "STAFF": {
+    "LABEL": "Staff",
+
+    "STAFF": {
+      "LABEL": "Staff"
+    },
+
+    "SOP": {
+"LABEL": "SOP",
+"EDIT": "Bewerk SOP {id}"
+    },
+
+    "ROSTER": {
+      "LABEL": "Rooster"
+    },
+
+    "ACADEMY": {
+"LABEL": "Academy Sheet",
+"ADD": "Voeg nieuwe officier toe"
+    },
+
+    "DATABASE": {
+"LABEL": "Tuchtdatabase",
+"ADD": "Voeg nieuwe officier toe"
+    },
+
+    "CODES_COMMANDS": {
+"LABEL": "10 Codes & Commando's",
+"CODES": {
+  "LABEL": "10 Codes",
+  "CODE": "Code",
+  "DESCRIPTION": "Beschrijving"
+      },
+"COMMANDS": {
+  "LABEL": "Commando's",
+  "COMMAND": "Commando",
+  "ACTION": "Actie"
+      }
+    }
+  },
+
+  "CHARGE": {
+    "LABEL": "Aanklachten"
+  },
+
+  "CONFIGURATIONS": {
+  "LABEL": "Configuraties",
+
+    "STAFF": {
+"LABEL": "Personeel",
+"EDIT": "Bewerk personeel {identifier}",
+"DATA": "Gegevens",
+"NO_ACTIVITY": "Nog geen activiteit",
+"CLOCKED_IN": "Ingeklokt",
+"CLOCKED_OUT": "Uitgeklokt",
+"SUSPEND": "Schorsen",
+"FIRE": "Ontslaan"
+    },
+
+    "ROLES": {
+"LABEL": "Rollen",
+"NEW": "Nieuwe rol",
+"DESCRIPTION": "Selecteer specifieke rollen waarvoor de officier toestemming moet hebben",
+"LABELS": {
+  "FULL_ACCESS": "Volledige Toegang",
+  "CONFIGURATIONS": {
+    "VIEW": "Toegang tot Configuraties",
+    "STAFF": "Controleer Personeelsgegevens",
+    "STAFF_ROLES": "Bewerk Personeelsrollen",
+    "ROLES": "Controleer Rollen gegevens",
+    "": "Controleer Gegevens"
+        },
+        "DASHBOARD": {
+"VIEW": "Toegang tot Dashboardpagina",
+"ANNOUNCEMENTS": {
+  "CREATE": "Maak Mededelingen",
+  "EDIT": "Bewerk Mededelingen",
+  "DELETE": "Verwijder Mededelingen"
+          }
+        },
+        "CITIZENS": {
+          "VIEW": "Toegang tot Burgerspagina",
+          "SEARCH": "Zoek Burgersgegevens",
+          "EDIT": "Bewerk Burgersgegevens"
+        },
+        "INCIDENTS": {
+"VIEW": "Toegang tot Incidentenpagina",
+"SEARCH": "Zoek Incidentengegevens",
+"CREATE": "Maak Incidentengegevens",
+"EDIT": "Bewerk Incidentengegevens",
+"DELETE": "Verwijder Incidentengegevens"
+        },
+        "REPORTS": {
+"VIEW": "Toegang tot Rapportenpagina",
+"SEARCH": "Zoek Rapportengegevens",
+"CREATE": "Maak Rapportengegevens",
+"EDIT": "Bewerk Rapportengegevens",
+"DELETE": "Verwijder Rapportengegevens"
+        },
+        "BOLOS_WARRANTS": {
+"VIEW": "Toegang tot BOLO's & Aanhoudingsbevelenpagina",
+"CREATE": "Maak BOLO's & Aanhoudingsbevelen",
+"EDIT": "Bewerk BOLO's & Aanhoudingsbevelen",
+"DELETE": "Verwijder BOLO's & Aanhoudingsbevelen"
+        },
+        "VEHICLES": {
+"VIEW": "Toegang tot Voertuigenpagina",
+"SEARCH": "Zoek Voertuigengegevens",
+"EDIT": "Bewerk Voertuigengegevens"
+        },
+        "EVIDENCE": {
+"VIEW": "Toegang tot Bewijsmateriaalpagina",
+"SEARCH": "Zoek Bewijsmateriaalgegevens",
+"CREATE": "Maak Bewijsmateriaalgegevens",
+"EDIT": "Bewerk Bewijsmateriaalgegevens",
+"DELETE": "Verwijder Bewijsmateriaalgegevens"
+        },
+        "CAMERAS": {
+"VIEW": "Toegang tot Camera's pagina"
+        },
+        "WEAPON_REGISTRY": {
+"VIEW": "Toegang tot Wapenregisterpagina",
+"SEARCH": "Zoek Wapenregistergegevens",
+"CREATE": "Maak Wapenregistergegevens",
+"EDIT": "Bewerk Wapenregistergegevens",
+"DELETE": "Verwijder Wapenregistergegevens"
+        },
+        "LEGISLATIONS": {
+"VIEW": "Toegang tot Wetgevingpagina",
+"SEARCH": "Zoek Wetgevinggegevens",
+"CREATE": "Maak Wetgevinggegevens",
+"EDIT": "Bewerk Wetgevinggegevens",
+"DELETE": "Verwijder Wetgevinggegevens"
+        },
+        "STAFF": {
+"VIEW": "Toegang tot Personeelsmenu",
+"VIEW_STAFF": "Toegang tot Personeelspagina",
+"SOP": {
+  "VIEW": "Toegang tot SOP-pagina",
+  "SEARCH": "Zoek SOP-gegevens",
+  "CREATE": "Maak SOP-gegevens",
+  "EDIT": "Bewerk SOP-gegevens",
+  "DELETE": "Verwijder SOP-gegevens"
+          },
+"ROSTER": {
+  "VIEW": "Toegang tot Roosterpagina",
+  "EDIT": "Bewerk Roostergegevens"
+},
+"ACADEMY": {
+  "VIEW": "Toegang tot Academiebladpagina",
+  "ADD": "Voeg Officieren Toe aan Academieblad",
+  "EDIT": "Bewerk Academiebladgegevens",
+  "DELETE": "Verwijder Academiebladgegevens"
+},
+"DATABASE": {
+  "VIEW": "Toegang tot Tuchtdatabasepagina",
+  "ADD": "Voeg Officieren Toe aan Tuchtdatabase",
+  "EDIT": "Bewerk Tuchtdatabasegegevens",
+  "DELETE": "Verwijder Tuchtdatabasegegevens"
+},
+"CODES_COMMANDS": {
+  "VIEW": "Toegang tot 10 Codes & Commando'spagina"
+},
+"CHARGES": {
+  "VIEW": "Toegang tot Aanklachtpagina"
+        }
+      }
+    },
+
+    "CHARGES": {
+"LABEL": "Aanklachten",
+"CHARGES": {
+  "LABEL": "Aanklachten"
+},
+"CATEGORIES": {
+  "LABEL": "Categorieën"
+      }
+    }
+  },
+
+  "DATE": {
+"YEAR": "jaar",
+"MONTH": "maand",
+"DAY": "dag",
+"HOUR": "uur",
+"MINUTE": "minuut",
+"SECOND": "seconde",
+"S": "s",
+"AGO": "geleden",
+"LEFT": "over",
+"JUST_NOW": "Zojuist",
+"EXPIRED": "Verlopen",
+"AND": "en"
+  },
+
+"AVATAR": "Avatar",
+"OFFICER": "Officier",
+"STATUS": "Status",
+"ACTIVE": "Actief",
+"INACTIVE": "Inactief",
+"ACTIONS": "Acties",
+"SET_WAYPOINT": "Stel waypoint in",
+"UNKNOWN_CATEGORY": "Onbekende Categorie",
+
+"STATEID": "Staat ID: (#{identifier})",
+"FULLNAME": "Volledige naam: {fullname}",
+"BADGENUMBER": "Badge#: {badgenumber}",
+"CREATED_BY": "Aangemaakt door: {user}",
+"TAG": "(#{identifier}) {fullname}",
+"POSTED_BY": "Geplaatst door: {user}",
+"OWNED_BY": "Bezit van: (#{identifier}) {fullname}",
+"LAST_SEEN": "Laatst gezien {date}",
+"AUTHOR": "Auteur: {user}",
+"OWNER": "Eigenaar: {owner}",
+"PLATE": "Kenteken: {plate}",
+"COLOR": "Kleur: {color}",
+"REASON": "Reden: {reason}",
+"EXPIRES": "Verloopt: {date}",
+"DESCRIPTION": "{description}",
+"FINE": "Boete: ${fine}",
+"JAIL": "Gevangenisstraf: {jail} maand(en)",
+"POINTS": "Punt(en): {points}",
+"CATEGORY": "Categorie: {category}",
+
+"VIEW": "Bekijken",
+"EDIT": "Bewerken",
+"SEARCH": "Zoeken",
+"CREATE": "Aanmaken",
+"UNLINK": "Koppeling opheffen",
+"SAVE": "Opslaan",
+"UPDATE": "Bijwerken",
+"DELETE": "Verwijderen",
+"CLEAR": "Wissen",
+"CLOSE": "Sluiten",
+"JOIN": "Deelnemen",
+"LEAVE": "Verlaten",
+"REMOVE": "Verwijderen",
+"ADD": "Toevoegen",
+"CANCEL": "Annuleren",
+"CONFIRM": "Bevestigen",
+"RESUME": "Hervatten",
+
+  "POPUP": {
+"CANCEL": "Annuleren",
+"CONFIRM": "Bevestigen",
+"IMAGE": "Weet je zeker dat je deze afbeelding uit de galerij wilt verwijderen?",
+"SAVE": "Wil je {label} opslaan?",
+"DELETE": "Wil je {label} verwijderen?",
+"ACTIVITY": "Weet je zeker dat je de activiteitgegevens van deze officier wilt wissen?"
+  },
+
+  "PLACEHOLDER": {
+"STATEID": "Staat ID",
+"FULLNAME": "Volledige naam",
+"ALIAS": "Alias",
+"DEPARTMENT": "Afdeling",
+"RANK": "Rang",
+"CALLSIGN": "Roepnaam",
+"BADGENUMBER": "Badge#",
+"PHOTO": "Foto",
+"TITLE": "Titel",
+"NOTES": "Aantekeningen",
+"LOCATION": "Locatie",
+"AUTHOR": "Auteur",
+"CATEGORY": "Categorie",
+"UNKNOWN": "Onbekend",
+"REASON": "Reden",
+"PLATE": "Kenteken",
+"OWNER": "Eigenaar",
+"COLOR": "Kleur",
+"DATE": "Datum en tijd",
+"SEARCH": "Zoeken",
+"SELECT": "Selecteren",
+"FILTER": "Filter",
+"CLOTHING": "Type kleding",
+"LINK": "Koppel link",
+"LABEL": "Label",
+"DESCRIPTION": "Beschrijving",
+"SERIAL": "Serienummer",
+"WEAPON": "Wapen",
+"ACTIONS": "Acties",
+"OFFICERS": "Officieren",
+"PREFIX": "Voorvoegsel",
+"FINE": "Boete",
+"JAIL": "Gevangenis",
+"POINTS": "Punten",
+"WANTED": "GEZOCHT",
+"FLAGGED": "GEVLAAGD",
+"ALL": "Alle"
+  },
+
+  "BOXES": {
+"IDENTITY": "Identiteit",
+"LICENCES": "Licenties",
+"STATS": "Statistieken",
+"ITEMS": "Items",
+"TAGS": "Tags",
+"VEHICLES": "Voertuigen",
+"HOUSING": "Onroerend goed",
+"EMPLOYMENT": "Werkgelegenheid",
+"CONVICTIONS": "Veroordelingen",
+"WEAPONS": "Wapens",
+"ROLES": "Rollen",
+"GALLERY": "Galerij",
+"OFFICERS": "Betrokken Officieren",
+"CITIZENS": "Betrokken Burgers",
+"INCIDENTS": "Gerelateerde Incidenten",
+"REPORTS": "Gerelateerde Rapporten",
+"EVIDENCE": "Gerelateerd Bewijsmateriaal",
+"ACTIVITY": "Activiteit"
+  },
+
+  "CAMERA": {
+"GALLERY": "Galerij",
+"OPEN": "Open camera",
+"VIEW": "Bekijk galerij",
+"UPLOAD": "Uploaden",
+"DELETE": "Verwijderen"
+  },
+
+  "CHARGES": {
+"FINE": "€{fine} Boete",
+"JAIL": "{jail} Maand(en)",
+"POINTS": "{points} Punt(en)"
+  },
+
+  "EDITOR": {
+    "BOLD": "Bold",
+    "ITALIC": "Italic",
+    "STRIKE": "Strike",
+    "TEXT": {
+      "PARAGRAPH": "Paragraph",
+      "H1": "H1",
+      "H2": "H2",
+      "H3": "H3",
+      "H4": "H4",
+      "H5": "H5",
+      "H6": "H6"
+    },
+    "COLOR": "Color",
+"CLEAR_MARKS": "Verwijder markeringen",
+"CLEAR_NODES": "Verwijder knooppunten",
+"BULLET_LIST": "Opsommingstekens",
+"ORDERED_LIST": "Geordende lijst",
+"HARD_BREAK": "Harde onderbreking",
+"UNDO": "Ongedaan maken",
+"REDO": "Opnieuw doen"
+  },
+
+  "INVENTORY": {
+"COUNT": "Aantal: {count}",
+"ITEM_DATA": {
+  "serial": "Serienummer: {serial}",
+  "durability": "Duurzaamheid: {durability}",
+  "ammo": "Munitie: {ammo}",
+  "street": "Locatie: {street}",
+  "type": "Categorie type: {type}",
+  "dnalabel": "DNA: {dnalabel}",
+  "label": "Label: {label}",
+  "date": "Datum: {date}",
+  "tracking": "Tracking: {tracking}",
+  "component": "Component: {component}",
+  "item": "Item: {item}",
+  "memoryCard": "Geheugenkaart {memoryCard}",
+  "flashEnabled": "Flits: {flashEnabled}",
+  "birthdate": "Geboortedatum: {birthdate}",
+  "nationaility": "Nationaliteit: {nationaility}",
+  "identifier": "Staat ID: {identifier}",
+  "gender": "Geslacht: {gender}",
+  "firstname": "Voornaam: {firstname}",
+  "lastname": "Achternaam: {lastname}"
+    }
+  },
+
+  "NO_ACCESS": {
+"TITLE": "TOEGANG GEWEIGERD",
+"DESCRIPTION": "Je hebt geen toegang tot de MDT",
+"BUTTON": "Sluiten"
+  },
+
+  "SUSPENDED": {
+"TITLE": "TOEGANG GEWEIGERD",
+"DESCRIPTION": "Het lijkt erop dat je bent geschorst en geen toegang hebt tot de MDT",
+"BUTTON": "Sluiten"
+  },
+
+  "ERROR403": {
+"STATUS": "403",
+"TITLE": "403 - Je Komt Niet Verder",
+"DESCRIPTION": "Oh jee, Gandalf blokkeert de weg!"
+  }
+}
